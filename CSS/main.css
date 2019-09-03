@@ -1,0 +1,312 @@
+
+
+
+html
+{
+font-family: 'Josefin Sans', sans-serif;
+
+}
+body{
+	margin: 0px;
+}
+
+/*---   nav bar       ---*/
+
+.navbar{
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+nav{
+	display: flex;
+	background-color: white;
+	border-bottom: solid;
+	border-bottom-width: 0.2px;
+	 border-bottom-color: gray;
+	margin: 0px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+}
+
+.button-menu{
+margin-left: 450px;
+}
+
+nav a{
+	font-size:18px;
+	margin-right: 25px;
+	margin-left: 25px;
+
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: initial;
+	color: #090909;
+	font-weight: bold;
+}
+
+#yellowfont{
+	color: #C5980D;
+}
+
+
+/*----- banner---------*/
+
+#logo2{
+	height: 25px;
+	
+}
+
+.banner{
+	display: flex;
+	height: 550px;
+	background-image: url("../img/banner.png");
+	 background-size:cover;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	justify-content:center;
+	align-items:center;
+	background-size: 100%;
+}
+
+
+
+#yellowbutton{
+	
+background-color:  #C5980D;
+padding: 15px;
+color: white;
+border-style: initial;	
+border-radius: 6px;
+font-size: 15px;
+}
+
+#titlecontent{
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+
+
+/*---------service section-----*/
+.our-service{
+	display: flex;
+	width: 100%;
+}
+.col-33{
+
+	width: 33.3333333%;
+	background-color: gray;
+	color: white;
+	height: 300px;
+	text-align: center;
+	margin:0px;
+}
+
+.service-subtitle{
+	width: 70%;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-top: 35%;
+	}
+
+
+.eventblock{
+	margin-bottom: 50px;
+}
+
+#cruise{
+	background-image: url(../img/cruise.jpg);
+	 background-size:cover;
+}
+#event{
+background-image: url(../img/event.png);
+ background-size:cover;	
+}
+
+#portfolio{
+	background-image: url(../img/portfolio.jpg);
+	 background-size:cover;
+}
+#write{
+	background-image: url(../img/write.jpeg);
+	 background-size:cover;
+}
+#camera2{
+	background-image: url(../img/camera2.jpg);
+	 background-size:cover;
+}
+#computer{
+	background-image: url(../img/computer.jpg);
+	 background-size:cover;
+}
+
+
+
+
+
+
+/*----------- event section--------*/
+
+.ue{
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+#b-icon{
+	width: 250px;
+}
+
+
+.eventsection{
+	text-align: center;
+	margin-left: 140px;
+	margin-right: 140px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+
+}
+.col{
+	margin-top: 15px;
+	display: flex;
+}
+#img-event{
+	height: 300px;
+}
+
+.event-col-right{
+	width: 45%;
+	text-align: left;
+	height: 400px;
+}
+.event-col-left{
+	text-align: left;
+	width: 50%;
+}
+
+#learnmorebutton{
+	border-color:  #C5980D;
+	padding: 10px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	border-width: 3px;
+	color:  #C5980D;
+	font-weight: 400;
+	font-size: 15px;
+
+}
+
+.eventtext{
+	margin-top: 50px;
+
+}
+
+
+
+
+
+/*----- text section--------*/
+
+.textsection{
+	background-color:  #C5980D;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	padding-left: 140px;
+	padding-right: 140px;
+	color: white;
+
+}
+
+#buybutton{
+	border-color:  white;
+	padding: 10px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	border-width: 3px;
+	color:  white;
+	background-color: transparent;
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 10px;
+
+}
+/*------------ new book ----------*/
+.booksection{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bookcover{
+
+	height: 400px;
+	margin: 70px;
+}
+
+
+
+/*------------client section--------*/
+
+
+#clienttitle{
+	text-align: center;
+	font-size: 30px;
+	font-color:darkgray;
+
+}
+.clientsection{
+	display: flex;
+	padding-left: 140px;
+	padding-right: 140px;
+	text-align: center;
+}
+
+
+.logoimg{
+
+	height: 100px;
+	margin: 50px;
+
+
+}
+
+
+
+/*------------ footer section------*/
+.footersection{
+	display: flex;
+	color: white;
+	background-color:  #C5980D;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 140px;
+	padding-right: 140px;
+	height: 200px;
+}
+
+.left-col{
+	display: block;
+	text-decoration: initial;
+	width: 400px;
+
+}
+
+#footer-link  {
+	text-decoration: initial;
+	color: white;
+	margin-top: 20px;
+	
+}
+
+
+.copyright{
+	text-align: center;
+	background-color: #838383;
+	color: white;
+	font-style: initial;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+
